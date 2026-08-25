@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html><head><title>Oracle Fusion Cloud Inventory Management 26B What's New</title></head>
+<body>
+<div id="main">
+  <div class="nav"><a href="26B-inventory-wn-f43075.htm">Previous</a> <a href="26B-inventory-wn-f43073.htm">Next</a></div>
+  <p>JavaScript must be enabled to correctly display this content</p>
+  <div class="title">Redwood: Deliver to Multiple Locations with Robotic Material Handling Equipment Using a Single Cart</div>
+  <div class="sect1">
+    <div class="body">
+      <p>Healthcare providers often have multiple PAR locations in close proximity to each other, and delivering replenishment orders to all of these locations at the same time helps optimize the replenishment process. This approach reduces foot traffic and minimizes the number of trips required to restock supplies, improving overall efficiency. Now, the robotic material handling integration can support this optimized workflow by delivering to multiple destinations in a single run using one cart.</p>
+      <p>A common use case where autonomous delivery robots are effectively used is when material needs to be transferred from a storage location to a PAR location. For such activities, organizations use intraorganization transfer orders to move material from a source subinventory to a PAR location. For example, multiple deliveries can be picked onto a single delivery cart and delivered to distinct locations within a facility. In the following example, three deliveries are delivered using a single delivery cart. Each delivery has a separate destination location.</p>
+      <p><img src="images/F43076_1.png" alt="Receipt Deliveries"/></p>
+      <p>Receipt Deliveries</p>
+      <p>Once the delivery is completed, the item quantities are updated for the respective subinventories or PAR locations.</p>
+      <p>This feature boosts operational efficiency and reduces time to restock critical patient care items by reducing the amount of trips your material handling robots need to complete.</p>
+    </div>
+  </div>
+  <h2>Steps to enable and configure</h2>
+  <div class="sect2">
+    <p><strong>Important:</strong> Before you set up Oracle Fusion Cloud Advanced Inventory Management, see the licensing and enablement information at the beginning of the How do I set up Advanced Inventory Management guide.</p>
+    <p>Use the <strong>Manufacturing and Supply Chain Materials Management</strong> offering to enable <strong>Advanced Inventory Management</strong>.</p>
+    <ol>
+      <li>Navigate to the Setup and Maintenance work area.</li>
+      <li>Select the <strong>Manufacturing and Supply Chain Materials Management</strong> offering.</li>
+      <li>Click <strong>Change Feature Opt In</strong>.</li>
+      <li>Select the <strong>Enable</strong> checkbox for <strong>Advanced Inventory Management</strong>.</li>
+    </ol>
+    <p>Use the <strong>Advanced Inventory Parameters</strong> setup task to enable <strong>Material Handling Equipment</strong>.</p>
+    <ol>
+      <li>Navigate to the Setup and Maintenance work area.</li>
+      <li>Search for and select the <strong>Advanced Inventory Parameters</strong> task.</li>
+      <li>Click the <strong>Enable deliveries using carts</strong> checkbox.</li>
+    </ol>
+  </div>
+  <h2>Tips and considerations</h2>
+  <div class="sect2">
+    <p>Review the <strong>Redwood: Deliver Goods with Robotic Material Handling Equipment</strong> feature on the <a href="https://docs.oracle.com/">Oracle Help Center.</a></p>
+  </div>
+  <h2>Key resources</h2>
+  <div class="sect2">
+    <ul>
+      <li>Oracle Fusion Cloud SCM: Using Inventory Management guide, available on the <a href="https://docs.oracle.com/">Oracle Help Center</a>.</li>
+    </ul>
+  </div>
+  <h2>Access requirements</h2>
+  <div class="sect2">
+    <p>Users who are assigned a configured job role that contains this duty role can access this feature:</p>
+    <ul>
+      <li>Monitor Receipt Deliveries Using Responsive Receiving Duty (ORA_RCV_MONITOR_RECEIPT_DELIVERIES_PWA_DUTY)</li>
+      <li>Advanced Inventory Management Administration Duty (ORA_INV_ADVANCED_INVENTORY_MANAGEMENT_ADMINISTRATION_DUTY)</li>
+    </ul>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,34 @@
+# --- Web Engine Architecture ---
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.5.0,<2.6.0
+python-multipart
+
+# --- Database & Authentication Security Layers ---
+sqlalchemy==2.0.23
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt<4.1
+
+# --- Async Network Harvesters & DOM Scrapers ---
+httpx>=0.24.0
+requests
+beautifulsoup4>=4.12.0
+lxml
+
+# --- AI Core Engine ---
+# Groq (the default provider) is called over plain httpx. This package is only
+# needed for the optional AI_PROVIDER=gemini path in ai_enricher.py.
+google-generativeai>=0.3.0
+
+# --- Enterprise Document & Spreadsheet Generators ---
+pandas
+openpyxl
+python-pptx
+
+# --- System & Environment Variable Overrides ---
+python-dotenv
+
+# NOTE: scikit-learn and sentence-transformers were removed. Nothing under
+# backend/ imports them. They pulled in torch and added several minutes and
+# ~2GB to every container build for no runtime benefit.

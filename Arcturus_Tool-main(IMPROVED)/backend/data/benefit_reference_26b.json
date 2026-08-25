@@ -1,0 +1,250 @@
+{
+  "AI Agent: Inventory Task Allocation Assistant": [
+    "Balances warehouse workloads by assigning tasks to qualified operators using current workload and performance information.",
+    "Reduces manual task-allocation effort so warehouse managers can concentrate on operational priorities and exceptions."
+  ],
+  "Create LPN Reports Using the License Plate Number Real Time Subject Area in OTBI": [
+    "Gives warehouse managers personalized reporting on LPNs and their contents across inventory, receiving, and shipping activity.",
+    "Makes LPN balances and transactions easier to analyze, supporting faster operational review and more informed inventory decisions."
+  ],
+  "Redwood: Deliver to Multiple Locations with Robotic Material Handling Equipment Using a Single Cart": [
+    "Reduces warehouse trips and foot traffic by allowing one robotic cart run to replenish multiple nearby PAR locations.",
+    "Speeds replenishment of critical supplies by serving several destinations in the same delivery run."
+  ],
+  "AI Agent: B2B Message Converter - Enrich Workflow Features Along with Upload and Download Capabilities": [
+    "Standardizes B2B shipment messages by converting Fusion REST resources into industry formats such as OAGIS within one workflow.",
+    "Reduces manual message-handling effort by letting users complete conversion and mapping-file upload or download activities in the same agent."
+  ],
+  "Redwood: Configure Collaboration Messaging": [
+    "Gives teams a centralized Redwood page for maintaining the parameters that control inbound and outbound Collaboration Messaging behavior.",
+    "Reduces repeated configuration effort by keeping message-processing settings directly within the collaboration messaging workflow."
+  ],
+  "Redwood: Define Processing Rules for B2B Messages": [
+    "Automatically applies enterprise-specific rules to inbound B2B messages, including default values and required fields.",
+    "Reduces dependence on custom development by allowing message-processing requirements to be maintained through configurable rules."
+  ],
+  "Redwood: Override Inbound Message Definitions": [
+    "Partner-specific inbound message formats and mappings can be tailored instead of relying on one provider definition for every trading relationship.",
+    "Different inbound communications can follow the data standards and mappings required by each trading partner's business process."
+  ],
+  "Redwood: Receive an Order from Oracle Configure, Price, Quote (CPQ)": [
+    "Moves configured quotes from Oracle CPQ into Fusion Order Management using a predefined message definition and required order payload format.",
+    "Keeps the initiating CPQ user informed through automatic processing-status responses as the quote is converted into an order."
+  ],
+  "Redwood: Set up Supplier and Customer Collaboration Messaging Using a Redwood Page": [
+    "Eliminates repeated connection setup for suppliers and customers by using default B2B connections to route forecast messages.",
+    "Makes outbound order and supply forecasts easier to route consistently across customer and supplier collaboration relationships."
+  ],
+  "Redwood: Manage Configured Items and Review Their Structures": [
+    "Brings the sales and complete structures of configured items into one redesigned view, making configuration review easier for users.",
+    "Gives users a clearer way to inspect configured-item structures when validating or reviewing configured products."
+  ],
+  "AI Agent: Configuration Advisor": [
+    "Comparing multiple configured-item options helps users identify a recommended configuration from the inputs and alternatives they provide.",
+    "Consistent configuration decisions become easier when users can evaluate alternatives and the reasoning behind the recommended option."
+  ],
+  "AI Agent: Gross Margin Analyst": [
+    "Surfaces gross-margin information at the point of sales, supply, and fulfillment decisions so teams can identify margin concerns before shipment.",
+    "Helps sales, planning, and finance respond earlier to low-margin or negative-margin orders instead of discovering margin erosion after fulfillment."
+  ],
+  "AI Agentic App: Cost Accounting Close Workspace": [
+    "Continuous period-close readiness visibility helps cost accountants and controllers identify exceptions before the close is due.",
+    "AI-generated summaries and recommended actions help teams address close issues with less last-minute investigation."
+  ],
+  "Redwood: Track Asset Costs for Maintenance Work Orders": [
+    "Maintenance asset costs can be filtered, analyzed, and reviewed in the Cost Accounting work area from a focused view.",
+    "Maintenance-related expenses become easier to examine and reconcile when asset cost information is organized in one dedicated page."
+  ],
+  "Track Costs for Parallel Work Order Operations Using Precedence Constraints": [
+    "Calculates product costs accurately when work definitions contain parallel operations under the standard cost method.",
+    "Keeps costing aligned with the sequence and precedence of parallel manufacturing operations for more reliable product-cost analysis."
+  ],
+  "Account for Component Scrap in Work Order Costs Without Material Returns": [
+    "Already-issued components can be recorded as scrap without requiring a separate material return transaction.",
+    "Scrapped material can be moved to a specific subinventory for review before final disposition, keeping scrap handling distinct from returns."
+  ],
+  "Calculate and Track Product Costs when Using an Item Multiple Times in a Discrete Work Order Operation": [
+    "Includes repeated use of the same item in product-cost calculations so the resulting work-order costs reflect actual component usage.",
+    "Tracks standard-cost variances by item and basis type, giving cost teams more detail when analyzing repeated component usage."
+  ],
+  "Calculate the Cost of Products After Assigning Phantom Subassembly Materials and Resources to Operations": [
+    "Phantom-subassembly materials and resources are costed against the correct parent operation during product costing.",
+    "Rolled-up product costs show where phantom components and resources contribute, giving manufacturing teams clearer costing traceability."
+  ],
+  "Calculate the Costs of Standard Costed Configured Items On Demand": [
+    "Calculates and publishes standard costs for configured items even when no new work order or purchase order exists.",
+    "Keeps configured-item inventory valuation current by allowing cost rollups across configured items on demand."
+  ],
+  "Complete the Same Output Across Multiple Operations in Discrete Manufacturing": [
+    "Apportions costs across co-products and by-products at the operation level, supporting more accurate costing for multi-output manufacturing.",
+    "Keeps production costing aligned with the operation where each co-product or by-product is generated."
+  ],
+  "Review Periodic Average Cost Adjustments Using Filters in Smart Search": [
+    "Cost users can filter periodic average cost adjustments by organization, cost book, adjustment type, and period.",
+    "Specific cost adjustments become easier to locate and review when investigating changes in inventory costing."
+  ],
+  "Track and Account for Rework Costs in Standard and Nonstandard Discrete Work Orders": [
+    "Tracks material and resource costs incurred during rework separately from the cost of the finished product.",
+    "Makes the cost of poor quality visible in standard and nonstandard work orders for more accurate manufacturing cost analysis."
+  ],
+  "Update Tax Determinants on Fiscal Document Line Using REST": [
+    "Single-line and bulk REST updates let high-volume fiscal processes change tax determinants without handling each document line separately.",
+    "Tax information can be corrected across fiscal document lines with less manual handling during high-volume transaction processing."
+  ],
+  "Enable Accurate Capture and Fiscal Processing for Prepayments Under the New Tax Regime": [
+    "Records and tracks supplier prepayments against purchase orders before goods are received within Brazil's fiscal procurement flows.",
+    "Automatically applies qualifying prepayments to final invoices, keeping prepayment and invoice processing connected through the procure-to-pay cycle."
+  ],
+  "Use Additional CFOP Codes for Buyer-Issued Bookkeeping": [
+    "Buyer-issued bookkeeping can use the additional CFOP codes required for fixed-asset purchase-credit release scenarios.",
+    "Fiscal-document processing can cover the stated repair, maintenance, and agribusiness return scenarios within the buyer-issued bookkeeping flow."
+  ],
+  "AI Agent: Inventory Shortages Assistant": [
+    "Identifies inventory shortages and evaluates replenishment options so managers can address stockouts before they disrupt operations.",
+    "Can approve and execute recommended replenishment actions, reducing manual intervention in resolving supply shortages."
+  ],
+  "AI Agent: Lot Management Advisor": [
+    "Brings lot-expiry monitoring, lot-specific UOM updates, and lot split or merge activities into a more guided workflow.",
+    "Reduces the manual navigation needed for complex lot-control activities while keeping lot-specific inventory information current."
+  ],
+  "AI Agentic App: Warehouse Operations Workspace": [
+    "Brings relevant warehouse operational information together so managers can assess documented processes and choose an appropriate response.",
+    "Makes operational records easier to review and monitor when resolving warehouse issues that could interrupt ongoing work."
+  ],
+  "Redwood: Use Additional Business Rules": [
+    "Business-specific field rules can hide unnecessary fields and require important fields directly on Redwood transaction pages.",
+    "Inventory transaction data becomes more consistent when page behavior enforces the fields and transaction choices required by the business process."
+  ],
+  "Redwood: Use Improved Logic for Goods in RFID-Enabled Cabinets": [
+    "Duplicate RFID-tag events no longer incorrectly increase on-hand quantity for the same item and tag combination.",
+    "High-value inventory in RFID-enabled cabinets stays aligned with actual automated movements through more accurate on-hand updates."
+  ],
+  "Redwood: Export All Search Results on the Completed Transactions Page": [
+    "Complete completed-transaction search results can be exported for offline investigation, reconciliation, and review of historical inventory activity.",
+    "Historical transaction records become easier to compare with external or hard-copy records when investigating on-hand inventory discrepancies."
+  ],
+  "Redwood: Perform Lot Split, Merge, or Translate Transactions Using a Redwood Page": [
+    "Lot assignments can be split, merged, or translated directly in a Redwood page when lot composition needs to change.",
+    "Targeted lot adjustments can isolate affected quantities when only part of a lot is impacted by a warehouse or inventory event."
+  ],
+  "Redwood: Purge Completed PAR Requests": [
+    "Removes completed PAR requests from operational data while retaining the ability to use PAR information for replenishment analysis.",
+    "Helps keep completed-request data manageable so users can focus on active PAR activity and relevant replenishment information."
+  ],
+  "Redwood: Use Additional Search Capabilities When Creating and Updating Subinventories": [
+    "Adds more ways to locate subinventories and locators while creating or updating warehouse inventory structures.",
+    "Makes warehouse setup and maintenance easier by helping users find the specific inventory locations they need to update."
+  ],
+  "Redwood: Use Improved Replenishment Logic for the Order PAR Replenishment Count Type": [
+    "Order PAR replenishment logic can determine when routine restocking is required for supplies maintained at established PAR levels.",
+    "Routine replenishment relies less on visual empty-bin or tray cues when the Order PAR count type is used."
+  ],
+  "Redwood: Use the All Organizations Option When Selecting an Organization": [
+    "Managers responsible for multiple inventory organizations can select all relevant organizations as a consolidated scope.",
+    "Cross-organization oversight becomes easier when users can work with the organizations they manage from a single selection."
+  ],
+  "Redwood: View On-Hand Quantity for Closed or Inactive Projects on the Item Quantities Page": [
+    "Keeps project-assigned inventory visible after a project closes or becomes inactive, supporting reconciliation of remaining materials.",
+    "Helps teams identify unused project inventory that may need redistribution or follow-up for post-project reconciliation."
+  ],
+  "Support the Landed Cost Enabled Attribute in Payables FBDI Upload": [
+    "The Landed Cost Enabled attribute can flow through Payables FBDI invoice imports with the data needed for landed-cost processing.",
+    "Procured-item cost capture can include freight, insurance, duties, and related charges when landed-cost information is supplied through FBDI."
+  ],
+  "Redwood: Search for Open Pick Slips by Destination Location When Using a Mobile Device": [
+    "Lets mobile warehouse users find open pick slips by their destination location instead of relying only on destination subinventory.",
+    "Helps operators identify inventory transfers headed to the correct location during mobile picking activities."
+  ],
+  "Derive Containment Task Owners on the Recall Tasks and Send Notifications": [
+    "Automatically derives recall containment task owners from mapped organizations, departments, or subinventories and notifies the appropriate coordinators.",
+    "Reduces manual notification-rule maintenance while keeping recall tasks aligned with location and date-effectivity requirements."
+  ],
+  "Select Inventory Organizations Participating in Recall Management": [
+    "Product Recall Management can be limited to selected inventory organizations instead of applying recall processing across the entire organization set.",
+    "Phased recall rollouts and targeted containment actions become possible by controlling which inventory organizations participate."
+  ],
+  "AI Agent: ASN Creation Assistant - Create ASN Through Email": [
+    "Supplier email content can be converted into Advance Shipment Notices without manually re-entering the shipment information.",
+    "ASN creation becomes more timely and consistent when suppliers do not provide automated ASN integration or portal-based creation."
+  ],
+  "AI Agent: Receipt Creation Assistant - Create Receipt Through Email": [
+    "Creates goods receipts from approved proxy information such as carrier delivery-confirmation emails when strict receipt oversight is not required.",
+    "Reduces manual receipt entry for eligible deliveries while keeping the receiving transaction tied to the available delivery information."
+  ],
+  "Redwood: Add Attachments and Update Descriptive Flexfields on Existing Receipts": [
+    "Lets receiving users add missing supplier documents and correct descriptive flexfield information after a receipt is created.",
+    "Keeps receipt records complete and accurate when documents or required details were missed during the original receiving transaction."
+  ],
+  "Redwood: Copy Lot and Serial Numbers from an ASN or Transfer Order When Using a Mobile Device to Receive or Put Away Goods": [
+    "Lets mobile receiving and put-away users copy trusted lot and serial numbers directly from an ASN or transfer order.",
+    "Reduces repetitive entry of lot and serial information for trusted-source transactions during receiving and put-away."
+  ],
+  "Redwood: Create ASN or ASBN Using a Spreadsheet": [
+    "Lets users create ASNs and ASBNs from a spreadsheet, capturing inbound supply details such as contents, quantities, and expected dates.",
+    "Helps receiving teams prepare for incoming deliveries and coordinate warehouse resources using structured advance-shipment information."
+  ],
+  "Redwood: Find Receipts Awaiting Put Away Using Additional Information on a Mobile Device": [
+    "Lets mobile users locate receipts awaiting put-away using information such as item number or supplier when the receipt number is unavailable.",
+    "Helps warehouse operators identify the correct receipt during put-away without relying on a remembered receipt number."
+  ],
+  "Redwood: Notify a Requester about ASN or Receipt Creation": [
+    "Automatically informs requesters when an ASN or receipt is created, giving them status information about ordered goods.",
+    "Reduces manual shipment-status follow-up by delivering receipt and ASN updates directly to the requester."
+  ],
+  "Redwood: Use Approvals for Receipts": [
+    "Adds approval control for receipts, returns, and corrections so receiving transactions can be reviewed before completion.",
+    "Strengthens receiving control by keeping approval decisions and transaction corrections within the documented receiving process."
+  ],
+  "Redwood: View Additional Information for Distributions in the Redwood Self-Service Receiving Application": [
+    "Additional distribution information helps receiving users identify the correct distribution when multiple distributions share one purchase-order line.",
+    "Clearer distribution identification reduces ambiguity when entering quantities or amounts for individual distributions during self-service receiving."
+  ],
+  "Redwood: Review and Select Lot and Serial Numbers from an ASN or Transfer Order during Receipt": [
+    "Receiving users can review and select the specific lot or serial numbers to accept from an ASN or transfer order.",
+    "Lot- and serial-controlled receipts gain tighter selection control when shipments contain multiple boxes or receiving agents."
+  ],
+  "Use Improved Search in the Redwood Self-Service Receiving Application": [
+    "Reusable search filters help receiving users locate the correct order lines more quickly during self-service receiving.",
+    "Common receiving searches are easier to apply again, supporting faster movement from order-line identification to receipt processing."
+  ],
+  "Create Facility Schedule Data Using an Improved Workday Pattern Algorithm": [
+    "Aligns facility schedule data to the end of a workday pattern and automatically updates the pattern end date.",
+    "Reduces schedule-data rework by keeping imported or entered dates synchronized with the defined workday pattern."
+  ],
+  "Redwood: Define Schedules Using a New User Experience": [
+    "Lets users create and edit schedules, workday patterns, and shifts through Redwood pages with an interactive calendar.",
+    "Makes schedule setup easier by allowing workdays and shift hours to be defined directly against the calendar."
+  ],
+  "Redwood: Support Use of Inverse Conversion Factors Between Units of Measure": [
+    "Lets users enter either a unit conversion value or its inverse when defining item or lot conversions.",
+    "Simplifies conversion-data entry by accommodating the form of the value that is most practical for the affected unit relationship."
+  ],
+  "Redwood: Use Oracle Object Storage for Data Extract Scheduled Output": [
+    "Scheduled extract output can be written to Oracle Object Storage or Unified Content Manager for more flexible data storage.",
+    "Teams gain additional options for managing scheduled extract files outside the originating application workflow."
+  ],
+  "AI Agent: Transfer Price Advisor": [
+    "Surfaces transfer-pricing guidance earlier in intercompany flows so finance and operations can evaluate pricing before transactions are finalized.",
+    "Helps teams identify potential transfer-pricing issues before shipment rather than discovering pricing discrepancies after the transaction."
+  ],
+  "Use Source Document as Transfer Price Basis for Orders in Back-to-Back Intercompany Transfers": [
+    "Derives the intercompany transfer price directly from the originating sales-order unit price for back-to-back internal transfers.",
+    "Keeps transfer-pricing calculations aligned with the source transaction while allowing an optional markup or markdown."
+  ],
+  "Derive Receivables and Payables Accounts for External Trade Events Using Transaction Account Definition": [
+    "Derives receivables and payables accounts for external trade events through transaction-account definitions instead of requiring the earlier control-account setup.",
+    "Simplifies accounting treatment for external intercompany events by connecting imported trade transactions to the appropriate financial accounts."
+  ],
+  "Generate Intercompany Events for Oracle Transportation Management Interface for Customer Drop Shipments": [
+    "Transfer-pricing business events can be published for customer drop shipments so connected applications can consume intercompany transaction information.",
+    "Supply Chain Financial Orchestration can coordinate transfer-pricing events with transportation or trade applications that depend on them."
+  ],
+  "Redwood: Enable Supply Chain Orchestration's Redesigned Landing Page": [
+    "Summarizes recently received and attention-required supply requests on the Supply Chain Orchestration landing page.",
+    "Gives supply-chain users a focused starting point for reviewing the status of requests that need action."
+  ],
+  "Use Supply Chain Orchestration to Support Contract Manufacturing for Process Manufacturing In Your Plan-to-Produce Flows": [
+    "Connects planned orders to process work orders and contract-manufacturing purchase orders so outsourced production can be tracked through the plan-to-produce flow.",
+    "Keeps manufacturing progress and supplier-service purchasing linked within the orchestration process for contract-manufactured products."
+  ]
+}

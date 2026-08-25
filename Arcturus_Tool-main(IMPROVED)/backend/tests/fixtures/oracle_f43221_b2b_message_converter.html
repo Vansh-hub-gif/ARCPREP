@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><title>Oracle Fusion Cloud Inventory Management 26B What's New</title></head>
+<body>
+<div id="main">
+  <div class="nav"><a href="26B-inventory-wn-f43178.htm">Previous</a> <a href="26B-inventory-wn-f43219.htm">Next</a></div>
+  <div class="p">JavaScript must be enabled to correctly display this content</div>
+  <div class="title">AI Agent: B2B Message Converter - Enrich Workflow Features Along with Upload and Download Capabilities</div>
+  <div class="sect1">
+    <div class="body">
+      <div class="p">You can use the B2B Message Converter AI agent to streamline the conversion of B2B messages such as shipments from a Fusion Application REST resource into industry-standard formats. Shipments are currently supported in OAGIS 10.1.</div>
+      <div class="p">Users can perform a complete sequence of messaging conversion steps within the agent, including uploading and downloading mapping files.</div>
+      <div class="p">All actions, ranging from entering instructions and uploading mapping files, to initiating conversions and downloading outputs are performed through the AI Agent Studio chat interface.</div>
+      <p><strong>Sample Prompts</strong></p>
+      <ul><li>Convert Shipment Number 67891 to OAGIS</li></ul>
+      <div class="p">Once the request is successfully completed, you have the option to download documents and access the message definition and message log for further review.</div>
+      <div class="p">Download and View Options</div>
+      <p><strong>Input Document (InputDocument)</strong>: The content is provided in standard JSON format specifically sourced from an Oracle Fusion REST API response.</p>
+      <p><strong>Outbound Document (OutputDocument)</strong>: This file includes the transformed message in OAGIS format.</p>
+      <p><strong>Node and Node Types</strong></p>
+      <table>
+        <tr><th>Node Name</th><th>Node Type</th><th>Description</th></tr>
+        <tr><td>Process User Input</td><td>LLM</td><td>This LLM is parsing a user's prompt to extract relevant document details, validating input, identifying required formats, and managing errors.</td></tr>
+        <tr><td>Verify User Input</td><td>IF conditional</td><td>This condition checks for input errors.</td></tr>
+      </table>
+      <div class="p">The agent leverages message definitions to automate and standardize message transformations, while the B2B Messages page logs the results of each conversion.</div>
+    </div>
+  </div>
+  <h2>Steps to enable and configure</h2>
+  <div class="sect2">
+    <div class="p">You can use AI Agent Studio to use or copy a preconfigured agent template to create Agents for your business processes. To automatically add a suffix to all artifacts in your agent team, you can <strong>Copy Template</strong> instead of <strong>Use Template</strong>. When you copy a template, you're directly taken to the agent team canvas where you can edit the agent team settings, agents, tools, and topics. The <strong>Use Template</strong> option takes you through a step-by-step process for configuring each artifact in the agent team.</div>
+    <p><strong>Agent Template:</strong> B2B Message Converter</p>
+  </div>
+  <h2>Tips and considerations</h2>
+  <div class="sect2">
+    <ul>
+      <li>In this update, the B2B Message Converter AI agent supports the Advance Ship Notice document type.</li>
+      <li>The prompt needs to include both the document type and the corresponding document number.</li>
+    </ul>
+  </div>
+  <h2>Access requirements</h2>
+  <div class="sect2">
+    <div class="p">To access the Oracle AI Agent Studio for Fusion Applications and manage SCM AI agents, users must be assigned a configured job role that contains these duty roles:</div>
+    <ul>
+      <li>SCM Intelligent Agent Management Duty (ORA_RCS_SCM_AI_AGENT_MANAGEMENT_DUTY)</li>
+      <li>Fai Genai Agent SCM Administrator Duty (ORA_DR_FAI_GENERATIVE_AI_AGENT_SCM_ADMINISTRATOR_DUTY)</li>
+    </ul>
+  </div>
+</div>
+</body></html>
